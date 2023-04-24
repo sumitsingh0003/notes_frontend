@@ -65,6 +65,7 @@ const Main = () => {
     setDbDatas(DbData.findResult);
   };
 
+  
   useEffect(() => {
     fetchData();
   }, [data]);
